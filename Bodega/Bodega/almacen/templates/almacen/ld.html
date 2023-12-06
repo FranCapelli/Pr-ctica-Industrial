@@ -1,5 +1,34 @@
 <!--Listado de despachos-->
 {% extends "almacen/base.html" %}
     {% block content %}
+    <h3>Listado de despachos</h3>
+    <h4>Materiales despachados</h4>
+    <div  class="container-fluid">
+        <ul>
+            <li>Nombre producto</li>
+            <li>Fecha inicio</li>
+            <li>Fecha término</li>
+            <li style="display: inline-block" >
+                <button type="button" class="btn btn-primary" style="width: 12rem;">Consultar</button>
+            </li>
+        </ul>
+    </div>
+    <div  class="container-fluid">
+        <ul>
+            <li style="display: inline-block" >
+                <button type="button" class="btn btn-primary" style="width: 12rem;">Ver listado</button>
+            </li>
+
+            <li style="display: inline-block" >
+                <button type="button" class="btn btn-primary" style="width: 12rem;">Imprimir listado</button>
+            </li>
+
+            <li style="display: inline-block" >
+                <a href="/">
+                    <button type="button" class="btn btn-primary" style="width: 12rem;">Salir</button>
+                </a>
+            </li>
+        </ul>
+    </div>
     
     {% endblock %}

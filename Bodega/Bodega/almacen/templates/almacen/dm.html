@@ -1,5 +1,50 @@
 <!-- Despacho de materiales-->
 {% extends "almacen/base.html" %}
     {% block content %}
-    
+    <h3>Despacho de materiales</h3>
+    <div>
+        <ul>
+            <li>Seleccione Cliente</li>
+            <li>Despachado por</li>
+            <li>Recibido en</li>
+            <li>Fecha del despacho</li>
+            <li>
+                <button type="button" class="btn btn-primary" style="width: 12rem;">Crear Despacho</button>
+            </li>
+        </ul>
+    </div>
+
+    <div>
+        <ul>
+            <li>Nombre Producto</li>
+            <li>Cantidad de productos despachados</li>
+            <li>Stock actual</li>
+            <li>
+                <button type="button" class="btn btn-primary" style="width: 17rem;">Agregar producto al despacho</button>
+            </li>
+        </ul>
+    </div>
+    <a>Detalle del despacho</a>
+    <!--Agregar tabla donde aparezca el despacho creado [id_producto;Producto;cantidad]-->
+    <div  class="container-fluid">
+        <ul>
+            <li style="display: inline-block" >
+                <button type="button" class="btn btn-primary" style="width: 12rem;" href="">Ver comprobante</button>
+            </li>
+
+            <li style="display: inline-block" >
+                <button type="button" class="btn btn-primary" style="width: 12rem;" href="">Imprimir comprobante</button>
+            </li>
+
+            <li style="display: inline-block" >
+                <button type="button" class="btn btn-primary" style="width: 12rem;" href="">Limpiar pantalla</button>
+            </li>
+
+            <li style="display: inline-block" >
+                <a href="/">
+                    <button type="button" class="btn btn-primary" style="width: 12rem;" href="inicio.html">Salir</button>
+                </a>
+            </li>
+        </ul>
+    </div>
     {% endblock %}

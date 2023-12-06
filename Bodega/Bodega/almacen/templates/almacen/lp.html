@@ -1,5 +1,34 @@
 <!-- Listado de productos-->
 {% extends "almacen/base.html" %}
     {% block content %}
-    
+    <h3>Listado de productos existentes</h3>
+    <h5>Opciones</h5>
+    <div>
+        <ul>
+            <li>General en Stock</li>
+            <li>General Stock crítico</li>
+            <li>Por Categoría Stock crítico</li>
+            <li>
+                <button type="button" class="btn btn-primary" style="width: 12rem;">Generar listado</button>
+            </li>
+        </ul>
+    </div>
+    <!--Insertar tabla donde se vea el listado de productos [producto;categoria;stock act;stock minimo]-->
+    <div  class="container-fluid">
+        <ul>
+            <li style="display: inline-block" >
+                <button type="button" class="btn btn-primary" style="width: 12rem;">Ver listado</button>
+            </li>
+
+            <li style="display: inline-block" >
+                <button type="button" class="btn btn-primary" style="width: 12rem;">Imprimir listado</button>
+            </li>
+
+            <li style="display: inline-block" >
+                <a href="/">
+                    <button type="button" class="btn btn-primary" style="width: 12rem;">Salir</button>
+                </a>
+            </li>
+        </ul>
+    </div>
     {% endblock %}

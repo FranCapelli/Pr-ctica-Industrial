@@ -1,5 +1,51 @@
 <!--Despachos anteriores-->
 {% extends "almacen/base.html" %}
     {% block content %}
-    
+    <h3>Despachos anteriores</h3>
+    <div  class="container-fluid">
+        <ul>
+            <li>Seleccionar Cliente</li>
+            <li style="display: inline-block" >
+                <button type="button" class="btn btn-primary" style="width: 12rem;">Consultar</button>
+            </li>
+        </ul>
+    </div>
+    <a>Detalle del despacho</a>
+    <!--insertar tabla con los despachos hechos para un cliente en específico [fecha;folio;despachador;producto;cantidad]-->
+    <div  class="container-fluid">
+        <ul>
+            <li>Despachado por</li>
+            <li>Recibido por</li>
+            <li>Stock actual</li>
+            <li style="display: inline-block" >
+                <button type="button" class="btn btn-primary" style="width: 17srem;">Agregar producto al despacho</button>
+            </li>
+        </ul>
+    </div>
+    <!--insertar tabla con los productos de un despacho [producto;cantidad] -->
+    <div  class="container-fluid">
+        <ul>
+            <li style="display: inline-block" >
+                <button type="button" class="btn btn-primary" style="width: 12rem;">Ver comprobante</button>
+            </li>
+
+            <li style="display: inline-block" >
+                <button type="button" class="btn btn-primary" style="width: 12rem;">Imprimir comprobante</button>
+            </li>
+
+            <li style="display: inline-block" >
+                <button type="button" class="btn btn-primary" style="width: 12rem;">Borrar item</button>
+            </li>
+
+            <li style="display: inline-block" >
+                <button type="button" class="btn btn-primary" style="width: 12rem;">Limpiar pantalla</button>
+            </li>
+
+            <li style="display: inline-block" >
+                <a href="/">
+                    <button type="button" class="btn btn-primary" style="width: 12rem;">Salir</button>
+                </a>
+            </li>
+        </ul>
+    </div>
     {% endblock %}
