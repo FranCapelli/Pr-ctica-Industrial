@@ -1,0 +1,28 @@
+{% load static %}
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <title>Sistema de gestión de Bodega</title>
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link rel='stylesheet' href="{% static 'almacen/estilos.css' %}">
+    </head>
+
+    <body>
+        <nav class="container" id="title"> 
+            <h1>Sistema de gestión de Bodega</h1>
+        </nav>
+
+        <nav class="container" id="menu">
+            <a id="link1" href="inicio.html">Inicio</a>
+            <a id="link2">Sistema de gestión Administrativa</a>
+        </nav>
+    </br>
+        
+    </body>
+    {% block content %}
+
+    {% endblock %}
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+</html>

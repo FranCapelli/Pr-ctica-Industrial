@@ -1,0 +1,67 @@
+<!-- Mantenedor de materiales-->
+{% extends "almacen/base.html" %}
+    {% block content %}
+        <h2>Registro de productos</h2>
+        <div>
+            <ul>
+                <li>Nombre producto</li>
+                <li>Categoría</li>
+                <li>Unidad medida</li>
+                <li>Stock máximo</li>
+                <li>Stock mínimo</li>
+            </ul>
+        </div>
+        <div  class="container-fluid">
+            <ul>
+                <li style="display: inline-block" >
+                    <button type="button" class="btn btn-primary" style="width: 12rem;" href="mm.html">Crear Producto</button>
+                </li>
+    
+                <li style="display: inline-block" >
+                    <button type="button" class="btn btn-primary" style="width: 12rem;" href="dm.html">Modificar Producto</button>
+                </li>
+    
+                <li style="display: inline-block" >
+                    <button type="button" class="btn btn-primary" style="width: 12rem;" href="lp.html">Limpiar pantalla</button>
+                </li>
+            </ul>
+        </div>
+        
+        </br>
+
+        <h2>Registro de compras</h2>
+        <div>
+            <ul>
+                <li>Proveedor</li>
+                <li>Fono contacto</li>
+                <li>Factura</li>
+                <li>Precio Referencia</li>
+                <li>Cantidad</li>
+                <li>Precio</li>
+                <li>Fecha compra</li>
+            </ul>
+            <!--aqui agregar listado con todos los registros-->
+        </div>
+
+        <div  class="container-fluid">
+            <ul>
+                <li style="display: inline-block" >
+                    <button type="button" class="btn btn-primary" style="width: 12rem;" href="">Agregar compra</button>
+                </li>
+    
+                <li style="display: inline-block" >
+                    <button type="button" class="btn btn-primary" style="width: 12rem;" href="">Modificar compra</button>
+                </li>
+    
+                <li style="display: inline-block" >
+                    <button type="button" class="btn btn-primary" style="width: 12rem;" href="">Nueva compra</button>
+                </li>
+
+                <li style="display: inline-block" >
+                    <button type="button" class="btn btn-primary" style="width: 12rem;" href="inicio.html">Salir</button>
+                </li>
+            </ul>
+        </div>
+
+    
+    {% endblock %}
