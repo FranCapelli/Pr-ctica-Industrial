@@ -1,6 +1,7 @@
 # Practica-Industrial
 Aquí se subirán los avances del trabajo de mi práctica <br>
 Se inicia el día 05-12-2023 a desarrollar el sitio web de Sistema de gestión de Bodega<br>
+El día 07-12-2023 se extrae la base de datos del programa prexistente de Mycrosoft Access para empezar a levantarlo con MySql
 
 # Sistema de gestión de bodega
   Funciones principales:<br>
