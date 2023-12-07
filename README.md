@@ -1,6 +1,6 @@
 # Practica-Industrial
-Aquí se subirán los avances del trabajo de mi práctica 
-Se inicia el día 05-12-2023 a desarrollar el sitio web de Sistema de gestión de Bodega
+Aquí se subirán los avances del trabajo de mi práctica <br>
+Se inicia el día 05-12-2023 a desarrollar el sitio web de Sistema de gestión de Bodega<br>
 
 # Sistema de gestión de bodega
   Funciones principales:<br>
@@ -32,7 +32,6 @@ Se inicia el día 05-12-2023 a desarrollar el sitio web de Sistema de gestión d
     -Tiene que existir una opcion de comentarios u observaciones en parte de personal inactivo y clientes inactivos.<br>
     -Los formatos de los documentos disponibles en el sitio web de adminitración tienen que ser más flexibles (editables).<br>
     -Crear un formato de documento de finiquitos.<br>
-    -Tiene que ser capaz el sitio de hacer el conteo si se hace el registro de compras se hace en otra de las funciones que no sea la principal (mm).<br>
 
   Permisos del sitio web:<br>
     -Todos aquellos que trabajan en la oficina deben tener todos los permisos.
